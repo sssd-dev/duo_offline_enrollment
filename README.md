@@ -30,7 +30,7 @@ $ gem install duo_api
 
 ```
 $ git clone https://github.com/sssd-dev/duo_offline_enrollment.git
-$ cd duo_api_ruby
+$ cd duo_offline_enrollment
 $ ruby main.rb {{ duo_api_key }} {{ duo_skey }} {{ duo_api_host }} | jq .
 ```
 
