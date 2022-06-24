@@ -23,36 +23,14 @@
 # Installing
 
 ```
-$ cd duo_api_ruby
 $ gem install duo_api
 ```
 
 # Using
 
 ```
-$ git clone https://github.com/sssd-dev/duo_api_ruby.git
+$ git clone https://github.com/sssd-dev/duo_offline_enrollment.git
 $ cd duo_api_ruby
 $ ruby main.rb {{ duo_api_key }} {{ duo_skey }} {{ duo_api_host }} | jq .
 ```
 
-# Testing
-
-```
-$ rake
-Loaded suite /usr/lib/ruby/vendor_ruby/rake/rake_test_loader
-Started
-........
-
-Finished in 0.002024715 seconds.
---------------------------------------------------------------------------------------------------------
-8 tests, 10 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
---------------------------------------------------------------------------------------------------------
-3951.17 tests/s, 4938.97 assertions/s
-```
-
-# Linting
-
-```
-$ rubocop
-```
